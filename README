@@ -1,2 +1,4 @@
 To start the project, run:
 ./mvnw spring-boot:run
+
+github repository: https://github.com/dtoropineiro/springboot-rest-api-test.git
