@@ -52,7 +52,14 @@ public class PersonaInfoService {
     	}
     }
 
-    public void delete(PersonaInfo persona) {
-    	personaList.remove(persona);
+    public void delete(int id) {
+    	PersonaInfo personaToDelete = findById(id);
+    	if(personaToDelete != null) {
+    		personaList.remove(personaToDelete);
+    		System.out.print("Persona deleted");
+    	}else {
+    		System.out.print("Persona does not exist");
+    	}
+    	
     }
 }
