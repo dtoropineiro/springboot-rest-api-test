@@ -32,7 +32,7 @@ public class PersonaInfoService {
         return personaList;
     }
 
-    public PersonaInfo buscarPorId(int id) {
+    public PersonaInfo findById(int id) {
 		for (PersonaInfo p : personaList){
 			if (p.getId() == id){
 				return p;				
@@ -43,6 +43,13 @@ public class PersonaInfoService {
 
     public void add(PersonaInfo persona) {
     	personaList.add(persona);
+    }
+    public void update(PersonaInfo persona) {
+    	if (personaList.contains(persona)) {
+    		personaList.add(persona);
+    	}else {
+    		System.out.print("Persona does not exist");
+    	}
     }
 
     public void delete(PersonaInfo persona) {

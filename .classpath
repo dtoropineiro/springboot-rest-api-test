@@ -8,5 +8,7 @@
 	<classpathentry kind="lib" path="C:/.m2"/>
 	<classpathentry kind="lib" path="C:/Users/datp1/.m2/repository/org/springframework/spring-web/5.2.0.RELEASE/spring-web-5.2.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/datp1/.m2/repository/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/datp1/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/datp1/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

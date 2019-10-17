@@ -1,1 +1,4 @@
+com\example\PersonaInfoAPI.class
+com\example\PersonaInfoController.class
 com\example\PersonaInfo.class
+com\example\PersonaInfoService.class
